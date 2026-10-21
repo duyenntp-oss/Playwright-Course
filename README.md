@@ -1,0 +1,2 @@
+# Playwright-Course
+auto test

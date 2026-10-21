@@ -1,0 +1,23 @@
+{
+  "name": "playwright-course",
+  "version": "1.0.0",
+  "description": "auto test",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinhhoai31199/Playwright-Course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dinhhoai31199/Playwright-Course/issues"
+  },
+  "homepage": "https://github.com/dinhhoai31199/Playwright-Course#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5"
+  }
+}
