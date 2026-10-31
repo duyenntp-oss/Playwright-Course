@@ -59,7 +59,9 @@ Bài 3: Trong folder lesson2 tạo file bai2.ts
     console.log("Số lượng giao dịch: " + transactions.length);
 console.log ("giao dịch đầu tiên là ", transactions[0]);
 console.log ("mã giao dịch thứ 3 là ", transactions[2].transactionId);
-console.log ("trạng thái của giao dịch cuối là ", transactions[4].status);
+console.log ("trạng thái của giao dịch cuối là ", transactions[4].status);// làm như này sẽ bị fix cứng
+// cách flexible hơn
+console.log(transactions[5-1].status)
 console.log ("tổng tiền của giao dịch 1 và giao dịch 2 là ", transactions[0].amount + transactions[1].amount);
 
 /*Bài 4: Vẫn sử dụng mảng giao dịch phía trên
