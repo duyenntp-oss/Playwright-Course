@@ -139,7 +139,7 @@ do đó để k xảy ra báo lỗi, trên type sẽ thêm dấu ? vào biến a
 **2.Array - Kiểu dữ liệu - tạo , thêm, truy vấn phần tử**
 
 
-
+\-mảng chứa nhiều giá trị nhưng cùng kiểu dữ liệu
 \- là mảng chứa nhiều chuỗi, nhiều number và nhiểu object
 
 \- đựng được nhiều giá trị hơn
