@@ -70,12 +70,24 @@
 // }
 
 let arrNumber :number[]=[2,5,6,8,9,11];
-    for (let i = 0; i<= arrNumber.length-1; i++){
-if (arrNumber[i] %2 === 0)
-    {
-        console.log("Số chẵn là " + arrNumber[i]);
-    }
+//     for (let i = 0; i<= arrNumber.length-1; i++){
+// if (arrNumber[i] %2 === 0)
+//     {
+//         console.log("Số chẵn là " + arrNumber[i]);
+//     }
 
-else {
-    console.log("Số lẻ là " + arrNumber[i]);
-}}
+// else {
+//     console.log("Số lẻ là " + arrNumber[i]);
+// }}
+
+//sử dụng for và push để loop arrNumber nếu là số chẵn -> push vào  mảng số chẵn -> log ra mảng số chẵn
+let soChan:number[] = [];
+
+
+for (let i = 0; i < arrNumber.length; i++) {
+    if (arrNumber[i] % 2 === 0) {
+        soChan.push(arrNumber[i]);
+    }
+}
+console.log(soChan);
+
